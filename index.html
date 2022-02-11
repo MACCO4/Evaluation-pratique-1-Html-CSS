@@ -4,24 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="https://kit.fontawesome.com/f53d30905e.js" crossorigin="anonymous"></script>
     <title>Maquette lincorne</title>
-    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <!--contenu-->
+
 <body>
     <header>
-        <nav>
-            <div>
-                <a href="index.html"><em>MonLicorne</em></a>
-            </div>
-            <div class="right">
-                <a href="#Le principe">PRINCIPE</a>
-                <a href="#Nos licornes">NOS LICORNES</a>
-                <a href="#Nous trouver">NOUS TROUVER</a>
-            </div>
-        </nav>
+        <a href="index.html" class="logo">MyUnicorn</a>
+        <ul class="navbar">
+            <li><a href="#Leprincipe">LE PRINCIPE</a></li>
+            <li><a href="#Noslicornes">NOS LICORNES</a></li>
+            <li><a href="#Noustrouver">NOUS TROUVER</a></li>
+        </ul>
     </header>
-    
+
+<!--article-->
+    <div>
+        <div>
+            <h1 id="en_tete">Un jour, une licorne</h1>
+        </div>
+        
+        <div class="box_blanc">
+            <section id="Leprincipe">
+                <h3>
+                    <i class="fa fa-star-o" aria hidden="true"></i>Le principe
+                </h3><br>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum dapibus ante, eu aliquam ante
+                        euismod eleifend. Ut malesuada augue ut luctus pellentesque. Aenean id varius ipsum. Nunc
+                        malesuada ex ut ipsum interdum vestibulum. Integer facilisis finibus orci, sit amet pretium diam
+                        placerat vitae. Nunc auctor tincidunt mollis. Nullam quis turpis sed lorem elementum semper eget
+                        semper risus. In nec mauris aliquam, congue metus euismod, cursus leo. Vivamus laoreet commodo
+                        leo, ut cursus justo blandit in. Aenean pretium mi a auctor pulvinar. Mauris sodales
+                        sollicitudin sodales. Sed mollis sed lectus id facilisis. Quisque pharetra a purus eget
+                        porttitor. Proin rhoncus risus non mauris iaculis sodales. Pellentesque euismod dui erat, non
+                        sodales ipsum sollicitudin sed.</p><br>
+                    <p>Donec nisi eros, luctus id pretium eget, consequat elementum risus. Fusce eleifend lacinia orci
+                        eu iaculis. Vestibulum vestibulum justo quis commodo congue. Aliquam purus leo, dictum in nisl
+                        at, pellentesque bibendum mi. Nulla convallis mi eget nisl convallis dictum. Vestibulum a massa
+                        lacus. Aenean quis enim diam.
+                    </p>
+                </div>
+            </section><br>
+
+            <section id="Noslicornes">
+                <h3>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>Nos licornes
+                </h3><br>
+                <div class="item">
+                    <div>
+                        <figure class="Col25">
+                            <img src="unicorns/photo1.jpg"/>
+                            <figcaption>Lulu Confetty</figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure class="Col25">
+                            <img src="unicorns/photo2.jpg"/>
+                            <figcaption>Lapillon Magik</figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure class="Col25">
+                            <img src="unicorns/photo3.jpg"/>
+                            <figcaption>El Ninjacorn</figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure class="Col25">
+                            <img src="unicorns/photo4.jpg"/>
+                            <figcaption>Sweety Candy</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section><br>
+
+            <section id="Noustrouver">
+                <h3>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>Nous trouver
+                </h3><br>
+                <div class="item">
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3
+                        !1d3703.916942099504!2d46.9449607146015!3d-21.822139805551622!2m
+                        3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21dd7cfdc35511
+                        39%3A0x32f15a4c653b4121!2sStation-service%20TotalEnergies%20
+                        Tsienimparihy!5e0!3m2!1sfr!2smg!4v1644418193629!5m2!1sfr!2smg" 
+                        width="600" height="450" style="border:0;" allowfullscreen=""
+                        loading="lazy"></iframe>
+                    </div><br>
+                    <div class="item2">
+                        <h4>Notre élevage de licornes est situé au :</h4><br>
+                        <p>Analakely Market
+                        Arabe Rahezavana, Antananarivo, Madagascar<br>01.22.45.67.90</p><br>
+                        <h4>Newsletter</h4><br>
+                        <form method="post" action="newsletter.php">
+                            <p>Abonnez-vous simplement à notre newsletter mensuelle !</p></br>
+                            <input type="mail" placeholder="votre@gmail.fr"><br>
+                            <input class="button" type="submit" value="valider">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <footer>
+        <p class="color">2016 &copy; WebForce3</p>
+    </footer>
+
+<!--fin -->
 </body>
+
 </html>
